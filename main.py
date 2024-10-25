@@ -11,4 +11,4 @@ if __name__ == "__main__":
 				raise Exception("Invalid equation")
 			solve_equation(coefficients)
 		except Exception as e:
-			print("An error occurred:", e)
+			print(e)
