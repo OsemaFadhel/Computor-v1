@@ -82,8 +82,7 @@ def solve_equation(coefficients):
 		else:
 			print("No solution")
 	elif polynomial_degree == 1: # if polynomial degree is 1, we have one real solution
-		print("The solution is:")
-		print(-coefficients[0] / coefficients[1])
+		print("The solution is:\n", -coefficients[0] / coefficients[1])
 	elif polynomial_degree == 2:
 		discriminant = pow(coefficients[1], 2) - (4 * coefficients[2] * coefficients[0])  # b^2 - 4ac
 		if discriminant > 0: # if discriminant is positive, we have two real solutions -b ± √Δ / 2a
@@ -91,8 +90,7 @@ def solve_equation(coefficients):
 			print((-coefficients[1] - math.sqrt(discriminant)) / (2 * coefficients[2]))
 			print((-coefficients[1] + math.sqrt(discriminant)) / (2 * coefficients[2]))
 		elif discriminant == 0: # if discriminant is 0, we have one real solution -b / 2a
-			print("The solution is:")
-			print(-coefficients[1] / (2 * coefficients[0]))
+			print("The solution is:\n", -coefficients[1] / (2 * coefficients[0]))
 		else: # if discriminant is negative, we have two complex solutions (-b ± i√-Δ) / 2a, where i is the imaginary unit defined by i = √-1
 			print("Discriminant is strictly negative, the two solutions are:")
 			print(f"({-coefficients[1]} - i√{-discriminant}) / {2 * coefficients[2]}")
