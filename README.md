@@ -6,9 +6,9 @@ function. The program will have to display its solution(s).
 ## Description of the project
 
 Program that solves a polynomial second or lower degree equation. It will to show at least: </br>
-• The equation in its reduced form.
-• The degree of the equation.
-• It’s solution(s) and the polarity of the discriminant if it makes sens.
+ - The equation in its reduced form.
+ - The degree of the equation.
+ - It’s solution(s) and the polarity of the discriminant if it makes sens.
 
 Examples:
 
